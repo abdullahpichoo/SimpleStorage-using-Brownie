@@ -1,0 +1,5 @@
+dotenv: .env
+
+#this will not work for me as I dont have the private key as env in os
+wallets:
+  from_key: ${PRIVATE_KEY}
